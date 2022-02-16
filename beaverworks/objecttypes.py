@@ -7,8 +7,6 @@ def typetest():
     print(isinstance(x, int))
     print(isinstance(x, bool))
 
-print("blogosphere"[::2]*5)
-
 def numbers():
     """
     numbers:
@@ -74,10 +72,49 @@ def numbers():
             x+=1
         or any other operation
     """
-    
-"""
-booleans
-null
-strings
+
+def bool(): 
+    """
+    Booleans
+        Boolean definined as logic operator
+            Only True, or False
+            must be capitalized
+        Tests for booleans
+            type(True) -> bool
+            isinstance(False, bool) -> True
+        Logic operators exist for bool
+            And and Or operators, "And" is "&", "Or" is "|"
+        Comparison statements always output bool
+        For specific reasons, True and False are equal to 0, 1 respectively
+    """
+
+def null():
+    """
+    null
+        Null defined as a variable holding nothing, "None"
+            type(none) -> NoneType
+        y = None
+        use "is" instead of == for checking variable similarity
+            "is" checks if two objects are identical, "==" checks if both objects are associated to the
+            same amound.
+        None example:
+            #code is to get the first item in a list that is over 10, notifies if there is no such number
+            large_num = None
+            for number in [1, 2, 3, 4]:
+                if number > 10:
+                    large_num = number
+                    break
+            if large_num is None:
+                print("no number greater than 10")
+    """
+
+def string():
+    """
+    strings
+        Strings are used to store characters
+            String can be formed using single quote, double quote, or 3 of single/double quote
+            Strings can contain characters from any character in UTF-8 unicode
+        
+
 lists
 """
