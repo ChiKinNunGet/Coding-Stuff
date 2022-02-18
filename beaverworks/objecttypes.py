@@ -114,7 +114,37 @@ def string():
         Strings are used to store characters
             String can be formed using single quote, double quote, or 3 of single/double quote
             Strings can contain characters from any character in UTF-8 unicode
-        
+        Strings belong to the str type
+            type("hello") -> str
+            Also use str to turn other things into strings
+            str(10.34) -> "10.34"
+        Strings are immutable, they cannot be turned into a different type without creating a new string
+        A String stores a sequence of characters, and has a means to index them
+            sentence  = "the cat in the hat"
+            sentence[0] = 'T'
+            sentence[0:3] = "The"
+        String essentials
+            Backslash characters   
+                backslash can act as a "backout" character that is not interpreted as part of the string
+                \n acts as a newline, \t acts as a tab, \\n can be used to make "\n" a string
+            String methods
+                Many different string methods exist
+                    https://docs.python.org/3/library/stdtypes.html#string-methods
+        Formatting strings
+            To implement variables and other into strings, you need to use formatting
+            "{name} is {age} years old".format(name = "bruce", age=80)
+                outputs as "bruce is 80 years old"
+            Note: if you see % as a string formatter, this is old python 2 and should not be used
+            Python 3.6 introduces f-strings for formatting
+                batman = 6
+                catwoman = 12
+                f"Batman has {batman} apples. Catwoman has {catwoman} apples. Together they have {batman+catwoman} apples"
+                no need for format method at the end
+    """
 
-lists
-"""
+def lists():
+    """
+    Lists
+        Lists store a sequence of other objects
+        
+    """
