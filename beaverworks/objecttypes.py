@@ -165,6 +165,5 @@ def lists():
             listname.append(adds) adds to the end
             listname.extend([adds]) adds a sequence to the end (another list)
             listname.remove(index) removes an object at the index
-            listname.pop(index) removes, and also returns the value of the 
-
+            listname.pop(index) removes, and also returns the value of the item removed
     """
