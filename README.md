@@ -4,6 +4,10 @@ Storing stuff
 
 ## Subheader
 
-Try to put everything here
-
+<p>try to keep everything here.<br>
+delete jupyter soon<br>
+start unity<br>
+continue blender<br>
+start nnfs<br>
+delay c++ until further notice</p>
 ...
