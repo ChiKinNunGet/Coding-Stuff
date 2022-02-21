@@ -5,9 +5,9 @@ Storing stuff
 ## Subheader
 
 try to keep everything here
-delete jupyter soon
-start unity
-continue blender
-start nnfs
-delay c++ until further notice
+\n delete jupyter soon
+\n start unity
+\n continue blender
+\n start nnfs
+\n delay c++ until further notice
 ...
