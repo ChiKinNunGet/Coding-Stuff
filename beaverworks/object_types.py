@@ -1,11 +1,15 @@
 # basic python object types
 
-"""Checking types: isinstance, type"""
 def typetest():
+    """
+    Checking types: isinstance, type
+    it can also do multiple at once
+    """
     x = 1
     print(type(x))
     print(isinstance(x, int))
     print(isinstance(x, bool))
+    print(isinstance(x, (bool, int)))
 
 def numbers():
     """
