@@ -146,5 +146,6 @@ def lists():
     """
     Lists
         Lists store a sequence of other objects
+        Lists can store any objects
         
     """
