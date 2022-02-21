@@ -147,4 +147,24 @@ def lists():
     Lists
         Lists store a sequence of other objects
         Lists can store any objects
+            It also provides us with the means to update them later
+        List is created with square brackets [], and sections are separated by commas. Contents do not have to be the same type
+        Expressions can also be included in the list, including other lists
+            x = "hello"
+            [2<3, x.capitalize(), 5**2, [1, 2]] == [True, 'Hello', 25, [1, 2]]
+        Built in list type can also convert other sequences into lists
+            list("apple") = ['a', 'p', 'p', 'l', 'e']
+        Lists are sequences, so order matters. It also supports indexing and slicing
+            x = [2, 4, 6, 8, 10]
+            len(x) = 5, x[0] = 2, x[1:3] = [4, 6]
+        Lists can also be mutated after their creation, unlike strings
+            x = [1, 2, 3, 4, 5]
+            x[1:4] = ["apple", -3, -4]
+            x = [1, 'apple', -3, -4, 5]
+        List functions/methods also exist
+            listname.append(adds) adds to the end
+            listname.extend([adds]) adds a sequence to the end (another list)
+            listname.remove(index) removes an object at the index
+            listname.pop(index) removes, and also returns the value of the 
+
     """
