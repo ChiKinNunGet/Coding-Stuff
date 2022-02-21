@@ -10,4 +10,6 @@ start unity<br>
 continue blender<br>
 start nnfs<br>
 delay c++ until further notice</p>
+
+have fun with merging
 ...
