@@ -29,8 +29,6 @@ def numbers():
             x!=y check if two values are not equal, returns bool. ! is not
             x>y check greater
             x>=y check greater or equal to
-    """
-    """
     python math module:
         python standard library math module gives more math functions
         syntax:
@@ -39,8 +37,6 @@ def numbers():
         math.sqrt(4.)
         math.log10(10.)
         math.factorial(4)
-    """
-    """
     Floating point numbers
         floating point is any number with a decimal place, referred to as float and 
         Floats an be expressed in scientific notation
@@ -53,8 +49,6 @@ def numbers():
             1.0+1.0+1.0-3.0 !=0 most times
         Never check if two floating point numbers are equal, check if they are close enough.
         math.isclose((0.1+0.1+0.1-0.3), 0., abs_tol=1e-9)
-    """
-    """
     Complex numbers
         Standard format: a+bj
             Use j because in engineering current is expressed as i
@@ -67,8 +61,6 @@ def numbers():
             x = complex(2+3j)
             x.real = 2
             x.imag = 3            
-    """
-    """
     Assignment statements
         incrementing numbers or replacing it with a number
             x = x+1

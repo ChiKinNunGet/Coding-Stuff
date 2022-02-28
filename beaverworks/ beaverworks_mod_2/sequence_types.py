@@ -92,6 +92,4 @@ def indexing_and_slicing():
         Out of bounds indices
             attempting to get a member from a sequence using an out of bounds index raises an IndexError
             But specifying a out of bounds start or stop value will instead revert to the closest valid value
-            
-
     """
