@@ -1,9 +1,4 @@
 #speedrun time yeahhhhh
+import numpy as np
 
-x = 1
-y = 2
-def f(x):
-    return y + x
-    
-z = (x, f(3))
-print(z)
+print(np.power(2, np.arange(100)))
