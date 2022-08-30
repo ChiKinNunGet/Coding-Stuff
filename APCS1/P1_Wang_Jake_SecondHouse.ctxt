@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_SecondHouse
+comment1.params=xCenter\ yCenter\ paper\ ACChance\ IsSnowing\ house
+comment1.target=void\ Unit(int,\ int,\ gpdraw.SketchPad,\ double,\ boolean,\ P1_Wang_Jake_SecondHouse)
+comment2.params=xCenter\ yCenter\ IsSnowing\ paper\ scale
+comment2.target=void\ DrawAC(int,\ int,\ boolean,\ gpdraw.SketchPad,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

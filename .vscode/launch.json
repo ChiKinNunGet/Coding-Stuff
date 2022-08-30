@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DrawAHouse",
+            "request": "launch",
+            "mainClass": "DrawAHouse",
+            "projectName": "Coding-Stuff_768b34f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawingTest",
+            "request": "launch",
+            "mainClass": "DrawingTest",
+            "projectName": "Coding-Stuff_768b34f0"
+        },
+        {
+            "type": "java",
             "name": "Launch P1_Wang_Jake_Printing",
             "request": "launch",
             "mainClass": "P1_Wang_Jake_Printing",
