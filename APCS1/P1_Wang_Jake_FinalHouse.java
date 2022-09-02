@@ -1,6 +1,6 @@
 /*
     Name:       Jake Wang
-    Date:       8/29/22
+    Date:       8/30/22
     Period:     1
 
     Is this lab fully working?  yes
@@ -11,11 +11,10 @@ import gpdraw.*;
 import java.awt.Color;
 import java.util.Random;
 
-
-public class P1_Wang_Jake_SecondHouse {
+public class P1_Wang_Jake_FinalHouse{
     static DrawingTool pen;
     
-    public void Unit(int xCenter, int yCenter, SketchPad paper, double ACChance, boolean IsSnowing, P1_Wang_Jake_SecondHouse house){ //drawing a single apartment pen 
+    public void Unit(int xCenter, int yCenter, SketchPad paper, double ACChance, boolean IsSnowing, P1_Wang_Jake_FinalHouse house){ //drawing a single apartment pen 
         pen = new DrawingTool(paper);
         Random rand = new Random();
         
@@ -74,61 +73,24 @@ public class P1_Wang_Jake_SecondHouse {
         }  
         
         int RandVal = rand.nextInt(100);
+        P1_Wang_Jake_DrawAC DrawAC;
+        
         if (RandVal<=100*ACChance){
             if (RandVal%2 != 0){
-                house.DrawAC((xCenter-23), yCenter, IsSnowing, paper, 1);
+                DrawAC = new P1_Wang_Jake_DrawAC((xCenter-23), yCenter, IsSnowing, paper, 1);
+                DrawAC.draw();
             }
             else {
-                house.DrawAC((xCenter+23), yCenter, IsSnowing, paper, 1);
+                DrawAC = new P1_Wang_Jake_DrawAC((xCenter+23), yCenter, IsSnowing, paper, 1);
+                DrawAC.draw();
             }
-        }
-    }
-
-    public void DrawAC(int xCenter, int yCenter, boolean IsSnowing, SketchPad paper, int scale){
-        pen = new DrawingTool(paper);
-        
-        pen.up();
-        pen.move(xCenter, yCenter);
-        
-        pen.setColor(new Color(190, 153, 124));
-        pen.down();
-        pen.fillRect(scale*46,scale*48);
-        pen.up();
-        
-        pen.setDirection(90);
-        pen.move(scale*-8);
-        pen.setColor(new Color(90, 99, 101));
-        pen.down();
-        pen.fillRect(scale*40, scale*26);
-        pen.up();
-        
-        pen.move(xCenter-20*scale, yCenter+5*scale);
-        pen.setColor(new Color(195, 201, 205));
-        pen.setWidth(scale);
-        
-        for (int r=0; r<=12; r++){
-            pen.setDirection(0);
-            pen.down();
-            pen.move(scale*40);
-            pen.up();
-            pen.setDirection(270);
-            pen.move(scale*2);
-            pen.setDirection(180);
-            pen.move(scale*40);
-        }
-        if (IsSnowing==true){
-            pen.move(xCenter, yCenter+scale*29);
-            pen.setColor(new Color(247, 255, 241));
-            pen.down();
-            pen.fillRect(scale*46, scale*10);
-            pen.up();
         }
     }
 
     public static void main(String[] args) {
         SketchPad paper;  
         DrawingTool setup;
-        P1_Wang_Jake_SecondHouse apartment = new P1_Wang_Jake_SecondHouse();
+        P1_Wang_Jake_FinalHouse apartment = new P1_Wang_Jake_FinalHouse();
         Random rand = new Random();
         
         
@@ -158,14 +120,10 @@ public class P1_Wang_Jake_SecondHouse {
             }
         }
         if (IsSnowing==true){
-            setup.setColor(new Color(247, 255, 241));
-            for (int f=1; f<=100+rand.nextInt(50);f++){
-                setup.up();
-                setup.move(-300+rand.nextInt(600), (-300+rand.nextInt(600)));
-                setup.down();
-                setup.fillCircle(1+rand.nextInt(10));
-                setup.up();
-            }
+            P1_Wang_Jake_DrawSnow DrawSnow;
+            DrawSnow = new P1_Wang_Jake_DrawSnow(paper);
+            DrawSnow.SetColor(new Color(247, 255, 241));
+            DrawSnow.draw();
         }
     }   
 }

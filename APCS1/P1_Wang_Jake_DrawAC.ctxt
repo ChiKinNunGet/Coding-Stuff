@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_DrawAC
+comment1.params=x\ y\ snowstatus\ paper
+comment1.target=P1_Wang_Jake_DrawAC(int,\ int,\ boolean,\ gpdraw.SketchPad)
+comment2.params=x\ y\ snowstatus\ paper\ scale
+comment2.target=P1_Wang_Jake_DrawAC(int,\ int,\ boolean,\ gpdraw.SketchPad,\ int)
+comment3.params=
+comment3.target=void\ draw()
+numComments=4

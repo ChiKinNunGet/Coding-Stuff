@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_DrawSnow
+comment1.params=paper
+comment1.target=P1_Wang_Jake_DrawSnow(gpdraw.SketchPad)
+comment2.params=minimum\ randrange\ paper
+comment2.target=P1_Wang_Jake_DrawSnow(int,\ int,\ gpdraw.SketchPad)
+comment3.params=minimum\ randrange\ color\ sizemin\ sizemax\ paper
+comment3.target=P1_Wang_Jake_DrawSnow(int,\ int,\ java.awt.Color,\ int,\ int,\ gpdraw.SketchPad)
+comment4.params=
+comment4.target=void\ draw()
+comment5.params=SnowColor
+comment5.target=void\ SetColor(java.awt.Color)
+numComments=6
