@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_DrawUnit
+comment0.text=\n\ Draws\ a\ single\ apartment\ unit\ exterior\n
+comment1.params=Cx\ Cy\ pad\ ACRate
+comment1.target=P1_Wang_Jake_DrawUnit(int,\ int,\ gpdraw.SketchPad,\ double)
+comment1.text=\n\ Draws\ a\ singular\ apartment\ unit\ exterior\n\ \n\ @param\ xCenter\:\ x\ value\ of\ the\ center\ of\ block,\ width\ is\ 200\ px.\n\ @param\ yCenter\:\ y\ value\ of\ the\ center\ of\ block,\ height\ is\ 150\ px.\n\ @param\ paper\:\ the\ SketchPad\ object\ to\ draw\ on\ (imported\ from\ gpdraw\ library).\n\ @param\ ACChance\:\ the\ probability\ that\ an\ air\ conditioning\ unit\ will\ be\ drawn\ on\ each\ apartment\ unit.\n
+comment2.params=snowing
+comment2.target=void\ SetSnowing(boolean)
+comment2.text=\n\ decides\ snow\ status\ to\ decide\ version\ to\ draw.\ must\ be\ ran\ before\ drawing\n
+comment3.params=
+comment3.target=void\ Draw()
+comment3.text=\n\ self-explanatory\n
+numComments=4

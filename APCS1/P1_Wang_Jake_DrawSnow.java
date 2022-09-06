@@ -1,6 +1,6 @@
 /*
     Name:       Jake Wang
-    Date:       8/30/22
+    Date:       9/3/22
     Period:     1
 
     Is this lab fully working?  yes
@@ -9,6 +9,9 @@
 import gpdraw.*;
 import java.util.Random;
 import java.awt.Color;
+/**
+ * Function to draw snow with when IsSnowing is on
+ */
 public class P1_Wang_Jake_DrawSnow
 {
     int minimum;
@@ -40,7 +43,14 @@ public class P1_Wang_Jake_DrawSnow
         sizemax = 10;
         pad = paper;
     }
-
+    /**
+     * @param minimum: minimum number of "snowflakes". default 100
+     * @param randrange: range between lower and higher limits. Total number of snowflakes = minimum+(random number between 0 and randrange). default 50
+     * @param color: color of snowflakes. default (247, 255, 241) RGB
+     * @param sizemin: minimum radius of snowflake
+     * @param sizemax: maximum radius of snowflake
+     * @param paper: SketchPad object from gpdraw to draw on
+     */
     public P1_Wang_Jake_DrawSnow(int minimum, int randrange, Color color, int sizemin, int sizemax, SketchPad paper){
         this.minimum = minimum;
         this.randrange = randrange;
@@ -50,10 +60,14 @@ public class P1_Wang_Jake_DrawSnow
         pad = paper;
     }
     
+    /**
+     * self explanatory
+     */
     public void draw(){
         Random rand = new Random();
         for (int f=1; f<=minimum+rand.nextInt(randrange);f++){
             snow = new DrawingTool(pad);
+            snow.setColor(color);
             snow.up();
             snow.move(-300+rand.nextInt(600), (-300+rand.nextInt(600)));
             snow.down();
@@ -62,6 +76,9 @@ public class P1_Wang_Jake_DrawSnow
             }
     }
     
+    /**
+     * self explanatory
+     */
     public void SetColor(Color SnowColor){
         color = SnowColor;
     }

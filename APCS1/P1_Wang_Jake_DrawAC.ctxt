@@ -1,9 +1,14 @@
 #BlueJ class context
 comment0.target=P1_Wang_Jake_DrawAC
+comment0.text=\n\ function\ to\ draw\ AC\ unit\ on\ apartment\ block\:\ snowing\ or\ not\n
 comment1.params=x\ y\ snowstatus\ paper
 comment1.target=P1_Wang_Jake_DrawAC(int,\ int,\ boolean,\ gpdraw.SketchPad)
 comment2.params=x\ y\ snowstatus\ paper\ scale
 comment2.target=P1_Wang_Jake_DrawAC(int,\ int,\ boolean,\ gpdraw.SketchPad,\ int)
-comment3.params=
-comment3.target=void\ draw()
-numComments=4
+comment2.text=\n\ @param\ x\:\ x\ value\ of\ center\ of\ AC\ unit.\ width\ 46,\ multiplied\ by\ scale\n\ @param\ y\:\ y\ value\ of\ AC\ unit\ venter.\ height\ 48,\ multiplied\ by\ scale\n\ @param\ snowstatus\:\ decides\ whether\ or\ not\ to\ draw\ the\ AC\ unit\ with\ snow\n\ @param\ paper\:\ SketchPad\ object\ from\ gpdraw\ to\ draw\ on\n\ @param\ scale\:\ multiplies\ all\ lengths\ in\ the\ AC\ but\ keeps\ center\ the\ same.\ Dilation\ transformation,\ default\ 1\n
+comment3.params=BGColor
+comment3.target=void\ SetBGColor(java.awt.Color)
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\n\ self-explanatory\n
+numComments=5
