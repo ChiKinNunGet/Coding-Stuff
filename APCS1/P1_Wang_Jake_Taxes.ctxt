@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_Taxes
+comment0.text=\n\ \ \ \ Name\:\ \ \ \ \ \ \ Jake\ Wang\n\ \ \ \ Date\:\ \ \ \ \ \ \ 9/20/22\n\ \ \ \ Period\:\ \ \ \ \ 1\n\n\ \ \ \ Is\ this\ lab\ fully\ working?\ \ yes\n\ \ \ \ If\ not,\ explain\:\n
+comment1.params=rate\ hours
+comment1.target=P1_Wang_Jake_Taxes(double,\ double)
+comment2.params=hours
+comment2.target=void\ setHours(double)
+comment2.text=\n\ @param\ hours\ double\ value\ of\ paid\ hours\ worked\n
+comment3.params=rate
+comment3.target=void\ setRate(double)
+comment3.text=\n\ @param\ rate\ pay\ rate\ per\ hour\ worked\n
+comment4.params=
+comment4.target=java.lang.String\ calculateAndDisplay()
+numComments=5

@@ -1,7 +1,5 @@
 #BlueJ class context
 comment0.target=P1_Wang_Jake_FinalHouse
-comment0.text=\n\ Driver\ that\ runs\ separate\ functions\ to\ draw\ a\ modular\ apartment\ building.\ Building\ inspired\ by\ \n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment1.text=\n\ main\ method\ to\ run\ grid,\ unit,\ and\ snow\ drawing\ code\n
 numComments=2

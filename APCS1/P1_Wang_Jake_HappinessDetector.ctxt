@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_HappinessDetector
+comment1.params=num\ a\ b
+comment1.target=boolean\ isHappy(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ P1_Wang_Jake_HappinessDetector()
+numComments=3

@@ -3,15 +3,17 @@ comment0.target=P1_Wang_Jake_DrawSnow
 comment0.text=\n\ Function\ to\ draw\ snow\ with\ when\ IsSnowing\ is\ on\n
 comment1.params=paper
 comment1.target=P1_Wang_Jake_DrawSnow(gpdraw.SketchPad)
+comment1.text=\n\ @param\ paper\ the\ gpdraw.SketchPad\ object\ to\ create\ a\ pen\ for\ and\ draw\ on\n
 comment2.params=minimum\ randrange\ paper
 comment2.target=P1_Wang_Jake_DrawSnow(int,\ int,\ gpdraw.SketchPad)
+comment2.text=\n\ @param\ minimum\ The\ minimum\ amount\ of\ snowflakes\ to\ draw\n\ @param\ randrange\ The\ number\ from\ which\ the\ random\ number\ of\ snowflakes\ to\ add\ on\ top\ of\ minimum\ is\n\ @param\ paper\ The\ gpdraw.SketchPad\ object\ to\ create\ a\ pen\ for\ and\ to\ draw\ on\n
 comment3.params=minimum\ randrange\ color\ sizemin\ sizemax\ paper
 comment3.target=P1_Wang_Jake_DrawSnow(int,\ int,\ java.awt.Color,\ int,\ int,\ gpdraw.SketchPad)
-comment3.text=\n\ @param\ minimum\:\ minimum\ number\ of\ "snowflakes".\ default\ 100\n\ @param\ randrange\:\ range\ between\ lower\ and\ higher\ limits.\ Total\ number\ of\ snowflakes\ \=\ minimum+(random\ number\ between\ 0\ and\ randrange).\ default\ 50\n\ @param\ color\:\ color\ of\ snowflakes.\ default\ (247,\ 255,\ 241)\ RGB\n\ @param\ sizemin\:\ minimum\ radius\ of\ snowflake\n\ @param\ sizemax\:\ maximum\ radius\ of\ snowflake\n\ @param\ paper\:\ SketchPad\ object\ from\ gpdraw\ to\ draw\ on\n
+comment3.text=\n\ @param\ minimum\ minimum\ number\ of\ "snowflakes".\ default\ 100\n\ @param\ randrange\ range\ between\ lower\ and\ higher\ limits.\ Total\ number\ of\ snowflakes\ \=\ minimum+(random\ number\ between\ 0\ and\ randrange).\ default\ 50\n\ @param\ color\ color\ of\ snowflakes.\ default\ (247,\ 255,\ 241)\ RGB\n\ @param\ sizemin\ minimum\ radius\ of\ snowflake\n\ @param\ sizemax\ maximum\ radius\ of\ snowflake\n\ @param\ paper\ SketchPad\ object\ from\ gpdraw\ to\ draw\ on\n
 comment4.params=
 comment4.target=void\ draw()
 comment4.text=\n\ self\ explanatory\n
 comment5.params=SnowColor
 comment5.target=void\ SetColor(java.awt.Color)
-comment5.text=\n\ self\ explanatory\n
+comment5.text=\n\ @param\ SnowColor\ color\ of\ snow\ in\ RBG\ (using\ java.awt.Color0\n
 numComments=6

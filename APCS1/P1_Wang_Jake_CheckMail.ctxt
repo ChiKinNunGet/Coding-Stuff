@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_CheckMail
+comment1.params=
+comment1.target=P1_Wang_Jake_CheckMail()
+comment2.params=x\ y\ z
+comment2.target=double\ findGreatest(double,\ double,\ double)
+numComments=3

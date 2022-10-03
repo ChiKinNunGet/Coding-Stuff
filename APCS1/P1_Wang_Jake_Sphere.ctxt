@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_Sphere
+comment1.params=radius\ paper
+comment1.target=P1_Wang_Jake_Sphere(int,\ gpdraw.SketchPad)
+comment1.text=\n\ \ \ \ @param\ pupilradius\ The\ radius\ of\ the\ pupil\ from\ 10\ to\ 50\ on\ original\ scale\ of\ 150px\ radius.\ Anything\ above\ or\ below\ becomes\ closest\ valid\ value.\n\ \ \ \ @param\ scale\ The\ scale\ to\ multiply\ all\ lengths\ by.\ Default\ 1\ for\ 150\ radius\ eyeball\n\ \ \ \ @param\ paper\ The\ SketchPad\ object\ used\ to\ draw\ on\n
+comment2.params=
+comment2.target=double\ GetRadius()
+comment2.text=Getter\ &\ Setter\ methods
+comment3.params=
+comment3.target=double\ GetSurfaceArea()
+comment4.params=
+comment4.target=double\ GetVolume()
+comment5.params=radius
+comment5.target=void\ setRadius(int)
+comment5.text=\n\ @param\ radius\ Set\ radius\ of\ sphere/eyeball\n
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=Other\ methods
+numComments=7

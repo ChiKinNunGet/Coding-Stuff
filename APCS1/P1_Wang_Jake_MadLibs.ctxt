@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_MadLibs
+comment1.params=Args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ Peladophobia\ is\ the\ irrational\ fear\ of\ bald\ *people*.\ *Strange*\ as\ it\ is,\ it\ is\ possible.\ About\ *0*\ \n\ \ \ \ \ \ \ people,\ or\ *0.0*%\ of\ the\ world\ suffers\ from\ Peladophobia.\ Someone\ suffering\ from\ this\ condition\ can\ \n\ \ \ \ \ \ \ expect\ to\ experience\ a\ very\ high\ amount\ of\ anxiety\ from\ merely\ thinking\ of\ bald\ *people*,\ let\ alone\ \n\ \ \ \ \ \ \ actually\ seeing\ them\ in\ real\ life.\ In\ fact,\ their\ anxiety\ may\ be\ so\ *intense*\ that\ they\ may\ even\ \n\ \ \ \ \ \ \ endure\ a\ full\ blown\ *panic\ attack*\ as\ a\ result\ of\ it.\ Currently\ *0.0*%\ of\ known\ peladophobia-induced\ \n\ \ \ \ \ \ \ panic\ attacks\ resulted\ in\ a\ catatonic\ state.\ Although\ such\ an\ influx\ of\ *anxiety*\ will\ not\ always\ be\ \n\ \ \ \ \ \ \ the\ case\ for\ everyone\ suffering\ from\ peladophobia,\ it\ is\ still\ very\ plausible\ to\ occur\ nonetheless\ \nwhen\ there\ are\ *_*\ bald\ people\ around\ the\ *globe*.
+comment2.params=
+comment2.target=int\ promptInt()
+comment2.text=\n\ Function\ that\ simply\ prompts\ and\ returns\ an\ integer\n
+comment3.params=
+comment3.target=double\ promptDouble()
+comment3.text=\n\ Function\ that\ simply\ prompts\ and\ returns\ a\ double\n
+comment4.params=label
+comment4.target=java.lang.String\ promptString(java.lang.String)
+comment4.text=\n\ Function\ that\ prompts\ and\ returns\ a\ String.\ "type"\ is\ simply\ what\ comes\ after\ "Please\ enter\ a\ "\n
+numComments=5

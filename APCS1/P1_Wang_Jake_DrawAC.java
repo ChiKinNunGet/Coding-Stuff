@@ -24,6 +24,12 @@ public class P1_Wang_Jake_DrawAC
     DrawingTool pen;
     Color bg;
     
+    /**
+     * @param x The x value on gpdraw coordinates (centered) to set as the center of the AC unit
+     * @param y The y value on gpdraw coordinates (centered) to set as the center of the AC unit
+     * @param snowstatus The boolean value for drawing snow on the AC unit
+     * @param paper The gpdraw.SketchPad object to draw on 
+     */
     public P1_Wang_Jake_DrawAC(int x, int y, boolean snowstatus, SketchPad paper){
         this.scale = scale;
         xCenter = x;
@@ -35,11 +41,11 @@ public class P1_Wang_Jake_DrawAC
     }
     
     /**
-     * @param x: x value of center of AC unit. width 46, multiplied by scale
-     * @param y: y value of AC unit venter. height 48, multiplied by scale
-     * @param snowstatus: decides whether or not to draw the AC unit with snow
-     * @param paper: SketchPad object from gpdraw to draw on
-     * @param scale: multiplies all lengths in the AC but keeps center the same. Dilation transformation, default 1
+     * @param x x value of center of AC unit. width 46, multiplied by scale
+     * @param y y value of AC unit venter. height 48, multiplied by scale
+     * @param snowstatus : decides whether or not to draw the AC unit with snow
+     * @param paper SketchPad object from gpdraw to draw on
+     * @param scale multiplies all lengths in the AC but keeps center the same. Dilation transformation, default 1
      */
     public P1_Wang_Jake_DrawAC(int x, int y, boolean snowstatus, SketchPad paper, int scale ){
         this.scale = scale;
@@ -50,6 +56,10 @@ public class P1_Wang_Jake_DrawAC
         pad = paper;
         bg = new Color(190, 153, 124);
     }
+    
+    /**
+     * @param BGColor The java.awt.Color color to to set AC unit body color
+     */
     public void SetBGColor(Color BGColor){
         bg = BGColor;
     }

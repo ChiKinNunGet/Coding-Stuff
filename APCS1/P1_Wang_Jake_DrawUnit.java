@@ -25,10 +25,10 @@ public class P1_Wang_Jake_DrawUnit
     /**
      * Draws a singular apartment unit exterior
      * 
-     * @param xCenter: x value of the center of block, width is 200 px.
-     * @param yCenter: y value of the center of block, height is 150 px.
-     * @param paper: the SketchPad object to draw on (imported from gpdraw library).
-     * @param ACChance: the probability that an air conditioning unit will be drawn on each apartment unit.
+     * @param Cx x value of the center of block, width is 200 px.
+     * @param Cy y value of the center of block, height is 150 px.
+     * @param pad the SketchPad object to draw on (imported from gpdraw library).
+     * @param ACRate the probability that an air conditioning unit will be drawn on each apartment unit.
      */
     public P1_Wang_Jake_DrawUnit(int Cx, int Cy, SketchPad pad, double ACRate){
         // initialise instance variables
@@ -41,6 +41,7 @@ public class P1_Wang_Jake_DrawUnit
     
     /**
      * decides snow status to decide version to draw. must be ran before drawing
+     * @param snowing true - draw snowy version of apartments, false - draw without snow
      */
     public void SetSnowing(boolean snowing){
         IsSnowing = snowing;

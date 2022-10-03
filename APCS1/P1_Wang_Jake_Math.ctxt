@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_Math
+comment0.text=\n\ This\ class\ offers\ various\ math\ functions\ including\:\ Farenheight\ to\ Celcius\ converters,\n\ sphere\ volume\ finder,\ right\ triangle\ hypotenuse\ solver,\ chemistry\ atom\ count\ calculator,\n\ random\ integer\ generator,and\ triangle\ perimeter\ finder.\n\ @author\ Jake\ Wang\ Ferrante\ P1\n
+comment1.params=F
+comment1.target=double\ fToC(double)
+comment1.text=\n\ Converts\ farenheit\ temperature\ to\ equivalent\ celcius\ temperature\ \n\ @param\ F\ The\ temperature\ in\ degrees\ Farenheit\ (double)\n\ @return\ The\ equivalent\ temperature\ in\ degrees\ Celcius\ (double)\n
+comment2.params=C
+comment2.target=double\ cToF(double)
+comment2.text=\n\ Converts\ celcius\ temperature\ to\ equivalent\ farenheit\ temperature\n\ @param\ C\ The\ temperature\ in\ degrees\ Celcius\ (double)\n\ @return\ The\ equivalent\ temperature\ in\ degrees\ Farenheit\ (double)\n
+comment3.params=r
+comment3.target=double\ sphereVol(double)
+comment3.text=\n\ Finds\ the\ volume\ of\ sphere\ with\ given\ radius\ \n\ @param\ r\ The\ radius\ of\ the\ given\ sphere\ (double)\n\ @return\ The\ volume\ of\ the\ same\ sphere\ (double)\n
+comment4.params=a\ b
+comment4.target=double\ pythag(double,\ double)
+comment4.text=\n\ Finds\ the\ hypotenuse\ of\ a\ right\ triangle\ with\ given\ leg\ lengths\ using\ the\ pythagorean\ theorem\n\ @param\ a\ The\ first\ leg\ length\ (double)\n\ @param\ b\ The\ other\ leg\ length\ (double)\n\ @return\ The\ length\ of\ the\ hypotenuse\ of\ the\ triangle\ (double)\n
+comment5.params=m_m\ m
+comment5.target=double\ mole(double,\ double)
+comment5.text=\n\ Finds\ the\ amount\ of\ atoms\ in\ a\ pure\ chemical\ sample\ given\ gram\ mass\ and\ molar\ mass\ of\ molecule,\ using\ Avogadro's\ number\n\ @param\ m_m\ The\ molar\ mass\ of\ the\ chemical\ in\ question\ (double)\n\ @param\ m\ The\ mass,\ in\ grams,\ of\ the\ substance\ (double)\n\ @return\ The\ number\ of\ molecules/atoms\ in\ the\ sample,\ in\ scientific\ notation\ (double)\n
+comment6.params=a\ b
+comment6.target=int\ randInt(int,\ int)
+comment6.text=\n\ Generates\ a\ random\ integer\ between\ two\ values,\ inclusive\n\ @param\ a\ The\ lower\ bound\ of\ the\ range\ to\ pick\ random\ numbers\ from\ (int)\n\ @param\ b\ The\ upper\ bound\ of\ the\ range\ to\ pick\ random\ numbers\ from\ (int)\n\ @return\ A\ randomly\ generated\ integer\ between\ a\ and\ b,\ inclusive\ (int)\n
+comment7.params=a\ b\ c
+comment7.target=double\ perimeter(java.awt.Point,\ java.awt.Point,\ java.awt.Point)
+comment7.text=\n\ Finds\ the\ perimeter\ of\ a\ triangle\ given\ three\ java.awt.Point\ objects\ representing\ vertices\n\ @param\ a\ One\ of\ the\ vertices\ of\ the\ triangle\ (Point)\n\ @param\ b\ Another\ of\ the\ vertices\ of\ the\ triangle\ (Point)\n\ @param\ c\ The\ last\ vertex\ of\ the\ triangle\ (Point)\n\ @return\ The\ perimeter\ of\ the\ triangle\ (double)\n
+numComments=8

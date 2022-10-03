@@ -11,15 +11,9 @@ import gpdraw.*;
 import java.awt.Color;
 import java.util.Random;
 
-/**
- * Driver that runs separate functions to draw a modular apartment building. Building inspired by 
- */
 public class P1_Wang_Jake_FinalHouse{
     static DrawingTool pen;
 
-    /**
-     * main method to run grid, unit, and snow drawing code
-     */
     public static void main(String[] args) {
         SketchPad paper;  
         DrawingTool setup;

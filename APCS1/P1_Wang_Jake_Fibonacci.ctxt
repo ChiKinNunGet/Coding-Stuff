@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=P1_Wang_Jake_Fibonacci
+comment0.text=\n\ \ \ \ Name\:\ \ \ \ \ \ \ Jake\ Wang\n\ \ \ \ Date\:\ \ \ \ \ \ \ 9/29/22\n\ \ \ \ Period\:\ \ \ \ \ 1\n\n\ \ \ \ Is\ this\ lab\ fully\ working?\ \ yes\n\ \ \ \ If\ not,\ explain\:\n
+comment1.params=n
+comment1.target=int\ fib(int)
+comment2.params=a\ b
+comment2.target=int\ multUnsigned(int,\ int)
+comment3.params=a\ b
+comment3.target=int\ multSigned(int,\ int)
+numComments=4
